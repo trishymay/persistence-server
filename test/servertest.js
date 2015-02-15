@@ -42,48 +42,48 @@ describe('server', function() {
       });
   });
 
-  // it('should read a file', function(done) {
-  //   chai.request('localhost:3000')
-  //     .get('/daleks/1')
-  //     .end(function(err, res) {
-  //       expect(err).to.eql(null);
-  //       expect(res).to.have.status(200);
-  //       expect(res.text).to.eql(file1);
-  //       done();
-  //     });
-  // });
+  it('should read a file', function(done) {
+    chai.request('localhost:3000')
+      .get('/daleks/1')
+      .end(function(err, res) {
+        expect(err).to.eql(null);
+        expect(res).to.have.status(200);
+        expect(res.text).to.eql(file1);
+        done();
+      });
+  });
 
-  // it('should read a file', function(done) {
-  //   chai.request('localhost:3000')
-  //     .get('/daleks/1')
-  //     .end(function(err, res) {
-  //       expect(err).to.eql(null);
-  //       expect(res).to.have.status(200);
-  //       expect(res.text).to.eql(file1);
-  //       done();
-  //     });
-  // });
+  it('should read a file', function(done) {
+    chai.request('localhost:3000')
+      .get('/daleks/1')
+      .end(function(err, res) {
+        expect(err).to.eql(null);
+        expect(res).to.have.status(200);
+        expect(res.text).to.eql(file1);
+        done();
+      });
+  });
 
-  // it('should read a file', function(done) {
-  //   chai.request('localhost:3000')
-  //     .get('/daleks/1')
-  //     .end(function(err, res) {
-  //       expect(err).to.eql(null);
-  //       expect(res).to.have.status(200);
-  //       expect(res.text).to.eql(file1);
-  //       done();
-  //     });
-  // });
+  it('should read a file', function(done) {
+    chai.request('localhost:3000')
+      .get('/daleks/1')
+      .end(function(err, res) {
+        expect(err).to.eql(null);
+        expect(res).to.have.status(200);
+        expect(res.text).to.eql(file1);
+        done();
+      });
+  });
 
-  // it('should read a file', function(done) {
-  //   chai.request('localhost:3000')
-  //     .get('/daleks/1')
-  //     .end(function(err, res) {
-  //       expect(err).to.eql(null);
-  //       expect(res).to.have.status(200);
-  //       expect(res.text).to.eql(file1);
-  //       done();
-  //     });
-  // });
+  it('should read a file', function(done) {
+    chai.request('localhost:3000')
+      .get('/daleks/1')
+      .end(function(err, res) {
+        expect(err).to.eql(null);
+        expect(res).to.have.status(200);
+        expect(res.text).to.eql(file1);
+        done();
+      });
+  });
 
 });
