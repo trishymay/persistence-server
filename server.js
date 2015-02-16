@@ -15,8 +15,6 @@ var server = http.createServer(function(req, res) {
     res.writeHead(404, {
       'Content-Type': 'application/json'
     });
-    console.log(pathBits);
-    console.log(pathBits[0]);
     res.write(JSON.stringify({msg: 'page not found'}));
     res.end();
   }
